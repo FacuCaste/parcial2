@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 10px;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+nav ul li a:hover{
+    color: white;
+    transition: 0.4s;
+}
+
+nav a {
+    color: #b30101;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: block;
+}
+
+nav li{
+    margin: 4px 8px;
+}
+
+main.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+section, aside {
+    background-color: #1b1b1b;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 45%;
+    min-width: 300px;
+    max-width: 800px;
+}
+
+h2, #h2 {
+    color: #b30101;
+    border-bottom: 2px solid #b30101;
+    padding-bottom: 5px;
+    font-weight: 800;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+#poster, #justiciero2, #justiciero3, #img-reunion, #denzel-gala, #restaurante-justiciero, #img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+#logos {
+    max-width: 25px;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.actor {
+    margin-top: 20px;
+}
+
+.actor img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#em-nombre {
+    font-weight: bold;
+}
+
+.video{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 10px;
+    color: #aaa;
+    margin-top: 40px;
+}
+
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.titulo-actor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.formulario {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 4px 10px #b30101;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #b30101;
+    background-color: #262626;
+    color: white;
+    border-radius: 5px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #b30101;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+#icono-musica {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+    }
+
+#icono-musica img {
+    width: 10px;
+    height: 10px;
+    }
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagina-mensaje{
+    background-color: #1b1b1b;
+    padding: 100px;
+    margin: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px #b30101;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.volver-inicio{
+    font-family: Arial, Helvetica, sans-serif
+}
