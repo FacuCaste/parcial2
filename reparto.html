@@ -10,8 +10,12 @@
     <body>
         <header>
             <h1>El Justiciero</h1>
+
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">☰</label>
+
             <nav>
-                <ul>
+                <ul class="menu">
                     <li><a href="./index.html">Inicio</a></li>
                     <li><a href="./sobre.html">Sobre</a></li>
                     <li><a href="./reparto.html">Reparto</a></li>
@@ -25,7 +29,8 @@
         <main class="contenedor">
             <section id="reparto">
                 <h2>Reparto</h2>
-                <article class="actor">
+                <div class="grid-actores">
+                    <article class="actor">
                     <h3 class="titulo-actor">Denzel Washington - Robert McCall</h3>
                     <figure>
                         <img src="img/denzelWashingtonJusticiero.jpg" alt="Denzel Washington">
@@ -80,6 +85,7 @@
                         <figcaption>Excompañero agente jubilado.</figcaption>
                     </figure>
                 </article>
+                </div>
             </section>
         </main>
 

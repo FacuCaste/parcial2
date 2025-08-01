@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #111;
+    background-image: url(./img/fondoJusticiero.png) ;
     color: #eee;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #222;
+    background-color: #222222;
     padding: 20px;
     text-align: center;
 }
@@ -221,7 +221,64 @@ button:hover {
     border-radius: 10px;
 }
 
-#error, .pagina-mensaje{
-    
+.grid-actores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
+.actor {
+    flex: 1 1 45%;
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 0px 4px 10px rgba(50, 47, 47, 0.83);
+}
+
+#menu-toggle {
+    display: none;
+}
+
+/* Icono hamburguesa */
+.menu-icon {
+    display: none;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Ocultar el menú en mobile */
+nav ul.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Estilo mobile */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        text-align: right;
+    }
+
+    nav ul.menu {
+        display: none;
+        flex-direction: column;
+        background-color: #222;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    /* Mostrar el menú si está checkeado */
+    #menu-toggle:checked + .menu-icon + nav ul.menu {
+        display: flex;
+    }
+
+    nav ul.menu li {
+        margin: 10px 0;
+        text-align: center;
+    }
+}
