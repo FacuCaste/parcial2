@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contacto - El Justiciero</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" href="./img/favicon.png">
-    </head>
-    <body>
-        <header>
-            <h1>El Justiciero</h1>
 
-            <input type="checkbox" id="menu-toggle">
-            <label for="menu-toggle" class="menu-icon">☰</label>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - El Justiciero</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./img/favicon.png">
+</head>
 
-            <nav>
-                <ul class="menu">
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./sobre.html">Sobre</a></li>
-                    <li><a href="./reparto.html">Reparto</a></li>
-                    <li><a href="./produccion.html">Producción</a></li>
-                    <li><a href="./curiosidades.html">Curiosidades</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
+<body>
+    <header>
+        <h1>El Justiciero</h1>
 
-        <main class="contenedor">
-            <aside id="contacto">
-                <h2>Contacto</h2>
-                <div id="formulario">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">☰</label>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./reparto.html">Reparto</a></li>
+                <li><a href="./produccion.html">Producción</a></li>
+                <li><a href="./curiosidades.html">Curiosidades</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        <aside id="contacto">
+            <h2>Contacto</h2>
+            <div id="formulario">
                 <p>Dejanos un mensaje</p>
-                    <form class="formulario" action="mensajeConfirmado.html">
+                <form class="formulario" action="mensajeConfirmado.html">
                     <label for="nombre">Nombre</label>
                     <input type="text" id="nombre" name="nombre" required>
 
@@ -46,21 +48,27 @@
 
                     <button type="submit">Enviar</button>
                 </form>
-                
+
                 <p>Seguinos en redes:</p>
                 <ul>
-                    <li><img src="img/logoFacebook.jpeg" alt="Facebook" id="logos"><a href="https://www.facebook.com/TheEqualizerMovie">Facebook</a></li>
-                    <li><img src="img/logoInstagram.jpeg" alt="Instagram" id="logos"><a href="https://www.instagram.com/theequalizermovie">Instagram</a></li>
+                    <li><img src="img/logoFacebook.jpeg" alt="Facebook" id="logos"><a
+                            href="https://www.facebook.com/TheEqualizerMovie">Facebook</a></li>
+                    <li><img src="img/logoInstagram.jpeg" alt="Instagram" id="logos"><a
+                            href="https://www.instagram.com/theequalizermovie">Instagram</a></li>
                 </ul>
-                
-                <p>Mirá el trailer de "El Justiciero"</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/j7RlqH5PXLo?si=Nz3pZ3QNfJTA_qXfstart=11&autoplay=1&mute=1" title="YouTube video player" frameborder="0"class="video"></iframe>          
-            </div>
-            </aside>
-        </main>
 
-        <footer>
-            <p>&copy; 2025 Sitio web de El Justiciero</p>
-        </footer>
-    </body>
+                <p>Mirá el trailer de "El Justiciero"</p>
+                <div class="video-responsive">
+                    <iframe src="https://www.youtube.com/embed/j7RlqH5PXLo?start=11&autoplay=1&mute=1"
+                        title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sitio web de El Justiciero</p>
+    </footer>
+</body>
+
 </html>
